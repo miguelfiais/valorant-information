@@ -9,7 +9,7 @@ export const Container = styled.div`
     align-items: center;
     background-color: #292929;
 `
-export const Header = styled.header`
+export const BoxHeader = styled.header`
     width: 100%;
     padding: 20px;
     background: #ff4655;
@@ -30,7 +30,7 @@ export const Main = styled.main`
     color: #f0f0f0;
     padding: 20px;
     h2{
-        font-size: 12vw;
+        font-size: 10vw;
     }
 `
 export const Section = styled.section`
