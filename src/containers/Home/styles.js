@@ -32,6 +32,11 @@ export const Main = styled.main`
     h2{
         font-size: 10vw;
     }
+    @media screen and (max-width: 600px) {
+        h2{
+        font-size: 48px;
+        }
+    }
 `
 export const Section = styled.section`
     width: 100%;
@@ -40,6 +45,7 @@ export const Section = styled.section`
     align-items: center;
     padding: 40px 20px;
     gap: 20px;
+    flex-wrap: wrap;
     button{
         height: 80px;
         width: 220px;
@@ -50,4 +56,11 @@ export const Section = styled.section`
         color: #FFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
+    @media screen and (max-width: 500px){
+        button{
+            height: 40px;
+            font-size: 14px;
+        }
+    }
+        
 `

@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const BoxHeader = styled.header`
     width: 100%;
     padding: 20px;
-    text-align: center;
     border-bottom: 2px solid #ff4655;
     display: flex;
     align-items: center;
