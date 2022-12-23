@@ -10,6 +10,9 @@ function Home() {
   function goArsenal(){
     navigate("/arsenal")
   }
+  function goMapas(){
+    navigate("/mapas")
+  }
   return (
     <Container>
       <BoxHeader>
@@ -23,7 +26,7 @@ function Home() {
       <Section>
         <button>Agentes</button>
         <button onClick={goArsenal}>Arsenal</button>
-        <button>Mapas</button>
+        <button onClick={goMapas}>Mapas</button>
       </Section>
     </Container>
   )

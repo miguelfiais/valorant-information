@@ -1,6 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
 export const Global = createGlobalStyle`
+    body, html {
+        overflow-x: hidden;
+    }
     *{
         margin: 0;
         padding: 0;
@@ -10,11 +13,15 @@ export const Global = createGlobalStyle`
     button{
         border: none;
         cursor: pointer;
+        outline: none;
     }
     button:hover{
         opacity: 0.8;
     }
     button:active{
         opacity: 0.5;
+    }
+    a{
+        cursor: pointer;
     }
 `

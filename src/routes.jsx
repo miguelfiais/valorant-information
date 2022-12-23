@@ -2,6 +2,7 @@ import React from "react"
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./containers/Home";
 import Arsenal from "./containers/Arsenal";
+import Mapas from "./containers/Mapas";
 function Router() {
 
     return(
@@ -9,6 +10,7 @@ function Router() {
             <Routes>
                 <Route path="/" element={<Home />}/>
                 <Route path="/arsenal" element={<Arsenal />}/>
+                <Route path="/mapas" element={<Mapas />}/>
             </Routes>
     </BrowserRouter>
     )

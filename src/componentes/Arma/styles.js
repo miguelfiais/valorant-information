@@ -65,4 +65,19 @@ export const BoxArma = styled.div`
     @media screen and (max-width: 800px) {
         height: auto;
     }
+    @media screen and (max-width: 500px) {
+        height: 250px;
+        h1{
+            font-size: 36px;
+        }
+        h3{
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        &:hover{
+            .descrition{
+                font-size: 14px;
+            }
+        }
+    }
 `
