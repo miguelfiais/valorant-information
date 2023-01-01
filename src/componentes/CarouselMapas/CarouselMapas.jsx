@@ -18,7 +18,7 @@ const CarouselMapas = () => {
     
   return (
     <Container>
-      <Carousel>
+      <Carousel variant='dark'>
         <Carousel.Item>
           <ItemCarousel mapaImg={pearl} mapaName="PEARL" 
           descrition="Atacantes avançam em direção aos Defensores neste vibrante mapa subaquático com dois pontos principais. Pearl é um mapa sem mecânicas focado no ambiente. Encare a batalha em um Meio compacto ou em áreas mais alongadas no nosso primeiro mapa situado na Terra Ômega."/>

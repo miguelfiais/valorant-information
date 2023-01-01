@@ -54,7 +54,12 @@ export const Section = styled.section`
         font-weight: 500;
         font-size: 18px;
         color: #FFF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 14px 80px rgb(255 70 85/ 49%), 0 5.84887px 33.4221px rgb(255 70 85/ 35%), 0 0.931014px 5.32008px rgb(255 70 85/ 20%);
+    }
+    button:hover{
+        background: transparent;
+        color: #ff4655;
+        border: 2px solid #ff4655; 
     }
     @media screen and (max-width: 500px){
         button{

@@ -29,6 +29,20 @@ export const Item = styled.div`
         font-weight: 500;
         font-size: 18px;
         letter-spacing: 0.5px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        gap: 5px;
+        svg{
+            width: 25px;
+            height: auto;
+        }
+    }
+    button:hover{
+        svg{
+            transform: rotateZ(-180deg);
+            transition: 0.8s;
+        }
     }
     @media screen and (max-width: 1000px){
     .carousel-caption{

@@ -8,6 +8,7 @@ export const BoxHeader = styled.header`
     align-items: center;
     justify-content: center;
     position: relative;
+    background-color: #ece8e1;
     h1{
         font-weight: 900;
         font-size: 48px;
@@ -23,9 +24,19 @@ export const BoxHeader = styled.header`
         right: 30px;
     }
     @media screen and (max-width: 800px) {
-        justify-content: space-evenly;
+        justify-content: space-around;
         button{
         position: static;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        justify-content: space-between;
+        button{
+            padding: 8px 20px;
+            font-size: 14px;
+        }
+        h1{
+            font-size: 36px;
         }
     }
 `

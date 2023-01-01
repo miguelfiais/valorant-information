@@ -13,6 +13,9 @@ function Home() {
   function goMapas(){
     navigate("/mapas")
   }
+  function goAgentes(){
+    navigate("/agentes")
+  }
   return (
     <Container>
       <BoxHeader>
@@ -24,7 +27,7 @@ function Home() {
         <h2>VALORANT</h2>
       </Main>
       <Section>
-        <button>Agentes</button>
+        <button onClick={goAgentes}>Agentes</button>
         <button onClick={goArsenal}>Arsenal</button>
         <button onClick={goMapas}>Mapas</button>
       </Section>
