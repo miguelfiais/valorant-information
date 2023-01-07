@@ -54,7 +54,7 @@ export const BoxArma = styled.div`
         .descrition{
             display: block;
             position: absolute;
-            top: 40%;
+            left: 0;
             font-size: 16px;
             font-weight: 400;
             color: #fff;
@@ -66,7 +66,7 @@ export const BoxArma = styled.div`
         height: auto;
     }
     @media screen and (max-width: 500px) {
-        height: 250px;
+        height: 300px;
         h1{
             font-size: 36px;
         }
@@ -76,7 +76,7 @@ export const BoxArma = styled.div`
         }
         &:hover{
             .descrition{
-                font-size: 14px;
+                font-size: 12px;
             }
         }
     }

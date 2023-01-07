@@ -20,7 +20,6 @@ function Home() {
     <Container>
       <BoxHeader>
         <img src={logo} alt="logo" />
-        <h1>Guia</h1>
       </BoxHeader>
       <Main>
         <h3>Um jogo de tiro tático 5x5 com personagens originais.</h3>

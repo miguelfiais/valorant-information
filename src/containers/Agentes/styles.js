@@ -8,7 +8,7 @@ export const Container = styled.div`
 export const BoxAgentes = styled.div`
     padding: 0 40px;
     display: grid;
-    grid-template-columns: 1.5fr 3fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
     min-height: calc(100vh - 107.59px);
     background: linear-gradient(180deg, #222222 0%, #151515 100%);
@@ -35,7 +35,7 @@ export const BoxAgentes = styled.div`
     }
     @media (max-width: 1200px){
         align-items: flex-start;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2.3fr;
         padding-top: 40px;
         img{
             width: 100%;
@@ -79,7 +79,6 @@ export const Buttons = styled.div`
         font-size: 36px;
         font-weight: 900;
         background: transparent;
-        text-shadow: 0 3px 18px #ff4655;
     }
    ::-webkit-scrollbar{
         width: 5px;
@@ -89,6 +88,9 @@ export const Buttons = styled.div`
    }
    ::-webkit-scrollbar-track {
         background-color: #F4F4F4;
+    }
+    @media (max-width: 1200px){
+        height: 500px;
     }
     @media (max-width: 800px){
         height: 400px;
